@@ -1,3 +1,0 @@
-Django>=1.18
-psycopg2
-pipenv
