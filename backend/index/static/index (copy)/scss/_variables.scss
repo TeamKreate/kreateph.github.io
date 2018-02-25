@@ -1,0 +1,32 @@
+/* General */
+$font-primary: 'Source Sans Pro', sans-serif;
+$font-primary-light: 'Source Sans Pro Light', sans-serif;
+$font-primary-black: 'Source Sans Pro Black', sans-serif;
+
+$color-primary: '#444';
+$color-secondary: 'purple';
+$color-default: '#3e3947';
+
+$bgcolor-primary: '#000';
+
+
+/* Font Face */
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('../fonts/SourceSansPro-Regular.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro Light';
+	src: url('../fonts/SourceSansPro-Light.otf') format('otf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Sans Pro Black';
+	src: url('../fonts/SourceSansPro-Black.otf') format('otf');
+	font-weight: 900;
+}

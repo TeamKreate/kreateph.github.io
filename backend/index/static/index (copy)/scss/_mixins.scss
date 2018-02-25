@@ -1,0 +1,20 @@
+@mixin box-sizing($border-box) {
+	-webkit-box-sizing: $border-box;
+	-moz-box-sizing: $border-box;
+	-ms-box-sizing: $border-box;
+	box-sizing: $border-box;
+}
+
+@mixin transition($property,$duration,$easing) {
+	-webkit-transition: $property $duration $easing;
+	-moz-transition: $property $duration $easing;
+	-o-transition: $property $duration $easing;
+	transition: $property $duration $easing;
+}
+
+@mixin transformRotate($degree) {
+	-webkit-transform: rotate($degree);
+	-moz-transform: rotate($degree);
+	-o-transform: rotate($degree);
+	transform: rotate($degree);
+}
